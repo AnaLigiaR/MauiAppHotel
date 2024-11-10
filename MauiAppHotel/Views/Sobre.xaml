@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppHotel.Views.Sobre"
+             Title="Sobre"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="{StaticResource Secondary}">
+
+    <VerticalStackLayout VerticalOptions="CenterAndExpand"
+                         Padding="10">
+
+        <Grid>
+            <Image Source="C:\Dev_Projetos\MauiAppHotel\MauiAppHotel\Resources\Images\hotel.png"
+                   HeightRequest="185"/>
+        </Grid>        
+        
+        <Label 
+            Text="Sobre"
+            FontFamily="KalamBold"
+            FontSize="Large"
+            TextColor="White"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+        <Label Text="Desenvolvido por Ana Ligia Ruffino"
+               HorizontalOptions="Center"
+               FontSize="16"
+               TextColor="White"/>
+        
+        <Label Text="© 2024"
+               HorizontalOptions="Center"
+               FontSize="16"
+               TextColor="White"/>
+
+        <Button Text="Voltar"
+                FontFamily="KalamBold"
+                HorizontalOptions="Center"/>
+
+    </VerticalStackLayout>
+</ContentPage>
