@@ -32,9 +32,10 @@
                FontSize="16"
                TextColor="White"/>
 
-        <Button Text="Voltar"
+        <Button Text="Avançar"
                 FontFamily="KalamBold"
-                HorizontalOptions="Center"/>
+                HorizontalOptions="Center"
+                Clicked="Button_Clicked"/>
 
     </VerticalStackLayout>
 </ContentPage>
